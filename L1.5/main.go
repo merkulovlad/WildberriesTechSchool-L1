@@ -35,5 +35,4 @@ func main() {
 	go reader(ch, &wg)
 	go writer(ch, timeout, &wg)
 	wg.Wait()
-
 }
